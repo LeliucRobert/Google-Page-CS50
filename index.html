@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <title> Google search </title>
+        <link rel="stylesheet" href="style.css">
+
     </head>
     <body>
         <header class="head"> 
@@ -12,17 +14,22 @@
         </header>
 
         <div>
-            <img src="google-text.png" alt="">
+            <center>
+                <img class="logo" src="google-text.png" alt="">
+            </center>
         </div>
 
-        <div>
-            <form action="https://www.google.com/search"></form>
-            <input type="text" placeholder="Search...">
+        <div class="SearchBar">
+            <form action="https://www.google.com/search">
+            <input class="SearchInput" type="text" placeholder="Search..." name="q">
         </div>
         
         <div>
-            <input type="submit" value="Google Search" >
-            <input type="submit" value="I'm feeling lucky!">
+            <center>
+                <input type="submit" class="searchButton" value="Google Search" name="btnK">
+                <input type="submit" class="luckyButton" value="I'm feeling lucky!" name="btnI">
+                </form>
+            </center>
         </div>
     </body>
 </html>
